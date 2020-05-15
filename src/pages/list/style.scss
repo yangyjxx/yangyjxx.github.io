@@ -1,0 +1,121 @@
+.List{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #F3F1F7;
+
+    .top{
+        height: 50px;
+        line-height: 50px;
+        width: 100%;
+
+        .top-div-2{
+            text-align: right;
+        }
+
+        .iconfont{
+            margin-right: 25px;
+            color: #4395ff;
+            font-size: 20px;
+        }
+    }
+
+    .weui-search-bar{
+        background-color: #F3F1F7;
+    }
+
+    .weui-search-bar__label{
+        background-color: #E5E3EA;
+        color: #929292;
+
+        .weui-icon-search {
+            position: absolute;
+            left: 5px;
+        }
+
+        span {
+            position: absolute;
+            left: 23px;
+        }
+    }
+
+    .smallbox{
+        height: 80px;
+        padding: 10px 20px;
+
+        .weui-flex__item{
+            background: #fff;
+            border-radius: 16px;
+            position: relative;
+        }
+
+        .weui-flex__item:nth-child(1) {
+            .link1{
+                img{
+                    position: absolute;
+                    top: 14px;
+                    left: 15px;
+                }
+
+                span{
+                    position: absolute;
+                    top: 10px;
+                    right: 15px;
+                    color: #333;
+                    font-weight: 700;
+                    font-size: 22px;
+                }
+
+                .placeholder:nth-child(2){
+                    position: absolute;
+                    top: 50px;
+                    left: 18px;
+                    font-size: 14px;
+                    color: #909091;
+                }
+            }
+
+        }
+
+        .weui-flex__item:nth-child(2){
+            margin-left: 15px;
+            .link1{
+                img{
+                    position: absolute;
+                    top: 14px;
+                    left: 15px;
+                }
+
+                span{
+                    position: absolute;
+                    top: 10px;
+                    right: 15px;
+                    color: #333;
+                    font-weight: 700;
+                    font-size: 22px;
+                }
+
+                .placeholder:nth-child(2){
+                    position: absolute;
+                    top: 50px;
+                    left: 18px;
+                    font-size: 14px;
+                    color: #909091;
+                }
+            }
+        }
+    }
+
+    .add{
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+        border-radius:5px;
+        background-color: #4395ff;
+        margin-top: 30px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: #fff;
+    }
+}
